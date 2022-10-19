@@ -1,0 +1,37 @@
+.copa-america {
+    position: absolute;
+    width: 485px;
+    height: 230px;
+    left: 156px;
+    top: 207px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 80px;
+    /* or 125% */
+    color: #FFFFFF;
+}
+
+.banner-article {
+    position: absolute;
+    width: 556.01px;
+    height: 438px;
+    left: 750px;
+    top: 153px;
+    overflow: hidden;
+}
+
+.banner-article:hover .banner-img {
+    border-radius: 10px;
+    transform: scale(1.12);
+    transition: transform 1.5s ease-in-out;
+}
+
+.banner-img {
+    width: 550px;
+    height: 435px;
+    left: 750px;
+    top: 153px;
+}
