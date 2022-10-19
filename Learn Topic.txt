@@ -1,0 +1,21 @@
+Some Git related things:
+
+--Remove the old origin and readd the correct one:
+
+git remote remove origin
+git remote add origin <correct address>
+Update the existing remote links:
+
+git remote set-url origin <correct url>
+
+
+
+That I have to learn
+--------------------
+-> FlexBox
+-> CSS3
+-> HTML5
+-> Media Query Breakpoints
+->
+->
+->
