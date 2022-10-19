@@ -72,6 +72,10 @@ nav li a {
     color: #FFFFFF;
 }
 
+nav a {
+    text-decoration: none;
+}
+
 nav aside {
     display: flex;
     flex-direction: row;
