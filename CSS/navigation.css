@@ -1,10 +1,10 @@
 header {
     position: absolute;
+    display: flex;
     width: 100%;
     height: 677px;
     left: 0px;
     top: 0px;
-
     background: #2D25A0;
 }
 
@@ -14,12 +14,12 @@ nav {
     align-items: center;
     padding: 0px;
     gap: 450px;
-
     position: absolute;
-    width: 1160px;
+    width: 100%-1px;
     height: 44px;
     left: 156px;
     top: 42px;
+    right: 124px;
 }
 
 nav ul {
@@ -28,8 +28,7 @@ nav ul {
     align-items: flex-start;
     padding: 0px;
     gap: 36px;
-
-    width: 587px;
+    width: 100%;
     height: 24px;
 }
 
@@ -38,9 +37,6 @@ nav li {
 }
 
 nav li a {
-    /* display: flex;
-    flex-direction: row;
-    justify-content: end; */
     text-decoration: none;
     width: 48px;
     height: 24px;
@@ -50,27 +46,10 @@ nav li a {
     font-weight: 500;
     font-size: 16px;
     line-height: 24px;
-
     font-feature-settings: 'liga' off;
-
     color: #ffffff;
 }
 
-.login-text {
-
-    width: 43px;
-    height: 24px;
-
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 24px;
-    /* identical to box height */
-
-
-    color: #FFFFFF;
-}
 
 nav a {
     text-decoration: none;
@@ -83,10 +62,8 @@ nav aside {
     justify-content: center;
     padding: 10px 24px;
     gap: 8px;
-
     width: 100px;
     height: 24px;
-
     background: #E02C6D;
 }
 
@@ -97,14 +74,10 @@ nav aside {
 nav aside p {
     width: 43px;
     height: 24px;
-
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 24px;
-    /* identical to box height */
-
-
     color: #FFFFFF;
 }

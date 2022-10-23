@@ -4,21 +4,23 @@
     height: 230px;
     left: 156px;
     top: 207px;
-
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 700;
     font-size: 64px;
     line-height: 80px;
-    /* or 125% */
     color: #FFFFFF;
+}
+
+#right_side {
+    margin-left: auto;
 }
 
 .banner-article {
     position: absolute;
     width: 556.01px;
     height: 438px;
-    left: 750px;
+    right: 141px;
     top: 153px;
     overflow: hidden;
 }
@@ -32,6 +34,46 @@
 .banner-img {
     width: 550px;
     height: 435px;
-    left: 750px;
     top: 153px;
+}
+
+.login_div {
+    display: flex;
+    width: 100%;
+}
+
+header div aside {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 24px;
+    gap: 8px;
+    position: absolute;
+    width: 150px;
+    height: 24px;
+    left: 156px;
+    top: 464px;
+    background: #E02C6D;
+}
+
+.fa-arrow-right {
+    color: #FFFFFF;
+    width: 24px;
+    height: 24px;
+    margin-top: 10px;
+}
+
+header div aside p {
+    width: 88px;
+    height: 24px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 0px;
+    color: #FFFFFF;
+    text-align: center;
+
+    margin-top: 40px;
 }
