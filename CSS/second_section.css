@@ -1,9 +1,10 @@
 .section-2 {
     position: relative;
     display: flex;
-    width: 100%;
+    width: calc(100%-182px);
     top: 3100px;
-    left: 182px;
+    margin-left: 182px;
+    /* left: 182px; */
     gap: 80px;
 }
 
