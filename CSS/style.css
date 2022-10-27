@@ -1,3 +1,8 @@
+.login_div {
+    display: flex;
+    width: 100%;
+}
+
 .copa-america {
     position: absolute;
     width: 485px;
@@ -33,12 +38,7 @@
     top: 153px;
 }
 
-.login_div {
-    display: flex;
-    width: 100%;
-}
-
-header div aside {
+.watch-live {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -60,7 +60,7 @@ header div aside {
     margin-top: 10px;
 }
 
-header div aside p {
+.live-text {
     width: 88px;
     height: 24px;
     font-family: 'Poppins';
