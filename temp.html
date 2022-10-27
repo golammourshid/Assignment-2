@@ -12,11 +12,14 @@
         }
 
         .first_section {
-            display: flex;
+            display: grid;
+            grid-template-columns: 200px 200px 200px;
         }
 
-        .third_div {
-            margin-left: auto;
+        .image {
+            width: 500px;
+            height: 500px;
+            background: url(images/players/Messi.png);
         }
     </style>
 </head>
@@ -24,19 +27,13 @@
 <body>
     <section class="first_section">
         <div class="first_div">
-            <h2>
-                first blog
-            </h2>
+            first blog
         </div>
         <div class="first_div">
-            <h2>
-                second blog
-            </h2>
+            second blog
         </div>
-        <div class="first_div third_div">
-            <h2>
-                third blog
-            </h2>
+        <div class="image">
+
         </div>
     </section>
 

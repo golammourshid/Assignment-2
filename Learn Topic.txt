@@ -19,3 +19,6 @@ That I have to learn
 ->
 ->
 ->
+
+
+animate__pulse
