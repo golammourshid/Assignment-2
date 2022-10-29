@@ -5,20 +5,16 @@
     position: relative;
     justify-content: center;
     align-items: center;
-    /* margin-left: auto;
-    margin-right: auto; */
-    top: 747px;
+    margin-top: 70px;
 }
 
 .grid-cell {
-    /* position: absolute; */
     padding: 15px;
     gap: 10px;
     width: 330px;
     height: 474px;
     background: #FFFFFF;
     box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
-    /* grid-gap: 30px; */
 }
 
 section img {
@@ -32,7 +28,6 @@ section div article {
     align-items: center;
     padding: 0px;
     gap: 10px;
-    /* margin-top: 0px; */
     width: 300px;
     height: 154px;
 }

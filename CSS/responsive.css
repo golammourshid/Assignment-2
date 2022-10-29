@@ -1,0 +1,30 @@
+@media only screen and (max-width: 900px) {
+    header {
+        flex-direction: column;
+        background-color: aqua;
+    }
+
+    nav {
+        flex-direction: column;
+        background-color: aqua;
+        left: 0px;
+        right: 0px;
+    }
+
+    nav ul {
+        flex-direction: column;
+        visibility: hidden;
+    }
+
+
+
+
+    .section-2 {
+        flex-direction: column;
+    }
+
+    #logo {
+        width: 296px;
+        height: 63px;
+    }
+}

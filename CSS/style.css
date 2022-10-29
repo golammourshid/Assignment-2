@@ -1,14 +1,21 @@
 .login_div {
     display: flex;
     width: 100%;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 121px;
+    margin-left: 156px;
+    gap: 150px;
 }
 
 .copa-america {
-    position: absolute;
+    position: relative;
     width: 485px;
     height: 230px;
-    left: 156px;
-    top: 207px;
+
+
+    /* left: 156px; */
+
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 700;
@@ -18,11 +25,9 @@
 }
 
 .banner-article {
-    position: absolute;
+    position: relative;
     width: 556.01px;
     height: 438px;
-    right: 141px;
-    top: 153px;
     overflow: hidden;
 }
 
@@ -70,6 +75,5 @@
     line-height: 0px;
     color: #FFFFFF;
     text-align: center;
-
     margin-top: 40px;
 }
